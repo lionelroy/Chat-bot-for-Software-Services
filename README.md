@@ -73,7 +73,13 @@ python chat.py
 ---------------------------------------
 
 ### This will be implemented as a Feed Forward Neural Network:
-X data("Sentence or bag of words", [0, 1, 1, 1, 0, 0, 0]) -----> number of patterns -----> hidden layer -----> hidden layer2 ------> number of classes -----> softmax -----> Y data(result of different probabilities)
+X data("Sentence or bag of words", [0, 1, 1, 1, 0, 0, 0]) -----> 
+number of patterns -----> 
+hidden layer -----> 
+hidden layer2 ------> 
+number of classes -----> 
+softmax -----> 
+Y data(result of different probabilities)
 
 ---------------------------------------
 
@@ -81,39 +87,45 @@ X data("Sentence or bag of words", [0, 1, 1, 1, 0, 0, 0]) -----> number of patte
 
 ### 1st applied concept
 Tokenization: splitting a string into meaningful units
+
 (e.g. words, punctuation characters, numbers)
+
 "What would you do with 1000000$?"
 -----> ["What", "would", "you", "do", "with", "1000000", "$", "?"]
+
 "Aren't you happy with so much money?"
 -----> ["Are", "n't", "you", "happy", "with", "so", "much", "money", "?"]
 
 
 ### 2nd applied concept
 Stemming: Generate the root form of the words.
+
 Crude heuristic that chops off the ends off the ends of words
+
 "organize", "organizes", "organizing"
 -----> ["organ", "organ", "organ"]
+
 "universe", "university"
 -----> ["univers", "univers"]
 
 
 ### 3rd applied concept
 NLP Preprocessing Pipeline
-"Is anyone there?"
+"Is anyone there?" 
 
-	| tokenize
+---> tokenize
 
-["Is", "anyone", "there", "?"]
+["Is", "anyone", "there", "?"] 
 
-	| lower + stem
+---> lower + stem
 
 ["is", "anyon", "there", "?"]
 
-	| exclude punctuation characters
+---> exclude punctuation characters
 
 ["is", "anyon", "there"]
 
-	| bag of words
+---> bag of words
 
 X vector data [0, 0, 0, 1, 0, 1, 0, 1]
 
