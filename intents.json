@@ -1,0 +1,140 @@
+{
+    "intents": [
+      {
+        "tag": "greetingEnglish",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "Hi There",
+          "Yo",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "greetingFrench",
+        "patterns": [
+          "Bonjour",
+          "Salut",
+          "Allo",
+          "Coucou",
+          "Bonsoir"
+        ],
+        "responses": [
+          "Bonjour :-)",
+          "Salut, merci de votre visite.",
+          "Bonjour, commment puis-je vous aider?"
+        ]
+      },
+      {
+        "tag": "goodbyeEnglish",
+        "patterns": [
+          "Bye", 
+          "See you later", 
+          "Goodbye"
+        ],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "goodbyeFrench",
+        "patterns": [
+          "Au revoir", 
+          "A plus tard"
+        ],
+        "responses": [
+          "A plus tard, merci de votre visite.",
+          "Au revoir! Revenez bientot.",
+          "Passez une bonne journee."
+        ]
+      },
+      {
+        "tag": "thanksEnglish",
+        "patterns": [
+          "Thanks", 
+          "Thank you", 
+          "That's helpful", 
+          "Thank's a lot!"
+        ],
+        "responses": [
+          "Happy to help!", 
+          "Any time!", 
+          "My pleasure"
+        ]
+      },
+      {
+        "tag": "thanksFrench",
+        "patterns": [
+          "Merci", 
+          "Merci beaucoup"
+        ],
+        "responses": [
+          "Je suis heureux de vous aider!", 
+          "C'est mon plaisir!"
+        ]
+      },     
+      {
+        "tag": "servicesEnglish",
+        "patterns": [
+          "Which services do you have?",
+          "What kinds of services do you have?",
+          "What are your services?",
+          "What services are there?",
+          "What services do you offer?"
+        ],
+        "responses": [
+          "We provide services in all stages of the Software Development Life Cycle including planning, design, development, deployment, and maintenance",
+          "Our services include the planning, design, development, deployment, and maintenance of Software applications"
+        ]
+      },
+      {
+        "tag": "servicesFrench",
+        "patterns": [
+          "Quels services avez-vous?",
+          "Quels types de services avez-vous?",
+          "Quels sont vos services?",
+          "Quels services offrez-vous?"
+        ],
+        "responses": [
+          "Nous fournissons des services a toutes les etapes du cycle de vie du developpement de logiciel, y compris la planification, la conception, le developpement, le deploiement et la maintenance.",
+          "Nos services comprennent la planification, la conception, le developpement, le deploiement et la maintenance d'applications de logicielles."
+        ]
+      },
+      {
+        "tag": "paymentsEnglish",
+        "patterns": [
+          "Do you take credit cards?",
+          "Do you accept Mastercard?",
+          "Can I pay with Paypal?",
+          "Are you cash only?"
+        ],
+        "responses": [
+          "We accept VISA, Mastercard and Paypal",
+          "We accept most major credit cards, and Paypal"
+        ]
+      },
+      {
+        "tag": "paymentsFrench",
+        "patterns": [
+          "Prenez-vous des cartes de credit?",
+          "Acceptez-vous Mastercard?",
+          "Quels mode de paiement offrez-vous?",
+          "Puis-je payer avec PayPal?"
+        ],
+        "responses": [
+          "Nous acceptons VISA, Mastercard et PayPal",
+          "Nous acceptons la plupart des principales cartes de credit et PayPal"
+        ]
+      }
+    ]
+  }

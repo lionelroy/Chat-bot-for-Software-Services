@@ -127,10 +127,3 @@ X vector data [0, 0, 0, 1, 0, 1, 0, 1]
 
 # TODO - IMPLEMENT UI FOR CHAT-BOT
 
-
-
-
-
-
-
-"# Chat-bot-for-Software-Services" 
