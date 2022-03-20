@@ -62,13 +62,13 @@ python chat.py
 ["Hi", "How", "are", "you", "bye", "see", "later"]
 
 "Hi" --> [1, 0, 0, 0, 0, 0, 0]                \
-"how are you" --> [0, 1, 1, 1, 0, 0, 0]       /             0(greeting)
+"how are you" --> [0, 1, 1, 1, 0, 0, 0]       /0(greeting)
 
 "Bye" --> [0, 0, 0, 0, 1, 0, 0]               \   
-"See you later" --> [0, 0, 0, 1, 0, 1, 1]     /             1(goodbye)
+"See you later" --> [0, 0, 0, 1, 0, 1, 1]     /1(goodbye)
 
-                ^					                            ^
-		    X data(model)				                    Y data(label)
+                ^					               ^
+		    X data(model)				      Y data(label)
 
 ---------------------------------------
 
